@@ -1,0 +1,2061 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.6.0.final using JasperReports Library version 6.6.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="korekta" pageWidth="595" pageHeight="1400" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="27135564-2881-4806-a86d-124f704c0494">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.data.sql.SQLQueryDesigner.sash.w1" value="307"/>
+	<property name="com.jaspersoft.studio.data.sql.SQLQueryDesigner.sash.w2" value="682"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<property name="ireport.jasperserver.url" value="http://localhost:8051/jasperserver/"/>
+	<property name="ireport.jasperserver.user" value="jasperadmin"/>
+	<property name="ireport.jasperserver.reportUnit" value="/reports/Hurtownia/korekta"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Oracle Database"/>
+	<property name="ireport.jasperserver.report.resource" value="/reports/Hurtownia/korekta_files/main_jrxml"/>
+	<style name="Table_TH" mode="Opaque" backcolor="#A9A9A9">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_CH" mode="Opaque" backcolor="#C9ACAB">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 1_TH" mode="Opaque" backcolor="#A9A9A9">
+		<box>
+			<pen lineWidth="0.5" lineColor="#6D6D6D"/>
+			<topPen lineWidth="0.5" lineColor="#6D6D6D"/>
+			<leftPen lineWidth="0.5" lineColor="#6D6D6D"/>
+			<bottomPen lineWidth="0.5" lineColor="#6D6D6D"/>
+			<rightPen lineWidth="0.5" lineColor="#6D6D6D"/>
+		</box>
+	</style>
+	<style name="Table 1_CH" mode="Opaque" backcolor="#FFBFBF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#6D6D6D"/>
+			<topPen lineWidth="0.5" lineColor="#6D6D6D"/>
+			<leftPen lineWidth="0.5" lineColor="#6D6D6D"/>
+			<bottomPen lineWidth="0.5" lineColor="#6D6D6D"/>
+			<rightPen lineWidth="0.5" lineColor="#6D6D6D"/>
+		</box>
+	</style>
+	<style name="Table 1_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#6D6D6D"/>
+			<topPen lineWidth="0.5" lineColor="#6D6D6D"/>
+			<leftPen lineWidth="0.5" lineColor="#6D6D6D"/>
+			<bottomPen lineWidth="0.5" lineColor="#6D6D6D"/>
+			<rightPen lineWidth="0.5" lineColor="#6D6D6D"/>
+		</box>
+	</style>
+	<style name="Table 2_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 2_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 2_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 3_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 3_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 3_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 4_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 4_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 4_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 5_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 5_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 5_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<subDataset name="Przed korektą" uuid="f0da1910-b6c9-4ca7-8e42-479772649498">
+		<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Oracle Database"/>
+		<parameter name="Zamowienie" class="java.lang.String"/>
+		<parameter name="Dokument" class="java.lang.String"/>
+		<queryString language="SQL">
+			<![CDATA[select pozycja,
+producent||' '||nazwa||' '||
+nvl(rodzaj,'')
+||' '||smak||' '||gramaturailosc||gramaturajm as "Nazwa artykulu",
+p.kod,ilosc,jednostkamiary,p.cenanetto,wartoscnetto,stawkavat,kwotavat,wartoscbrutto,pkwiu
+from produkty_hs p
+join szczegoly_zamowien_hs sz
+on p.kod = sz.kodproduktu
+where upper(nrzamowienia) =  upper($P{Zamowienie}) 
+and p.kod in (
+select sz.kodproduktu
+from szczegoly_zamowien_hs sz
+where upper(nrzamowienia) =  upper($P{Zamowienie})
+group by sz.kodproduktu
+having count(sz.kodproduktu) > 1)
+and ilosc > 0]]>
+		</queryString>
+		<field name="POZYCJA" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.label" value="POZYCJA"/>
+		</field>
+		<field name="Nazwa artykulu" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.label" value="Nazwa artykulu"/>
+		</field>
+		<field name="KOD" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.label" value="KOD"/>
+		</field>
+		<field name="ILOSC" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.label" value="ILOSC"/>
+		</field>
+		<field name="JEDNOSTKAMIARY" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.label" value="JEDNOSTKAMIARY"/>
+		</field>
+		<field name="CENANETTO" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.label" value="CENANETTO"/>
+		</field>
+		<field name="WARTOSCNETTO" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.label" value="WARTOSCNETTO"/>
+		</field>
+		<field name="STAWKAVAT" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.label" value="STAWKAVAT"/>
+		</field>
+		<field name="KWOTAVAT" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.label" value="KWOTAVAT"/>
+		</field>
+		<field name="WARTOSCBRUTTO" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.label" value="WARTOSCBRUTTO"/>
+		</field>
+		<field name="PKWIU" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.label" value="PKWIU"/>
+		</field>
+	</subDataset>
+	<subDataset name="Po korekcie" uuid="d4e234e0-6b61-4902-9038-e1131d69a96b">
+		<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Oracle Database"/>
+		<property name="com.jaspersoft.studio.data.sql.SQLQueryDesigner.sash.w1" value="300"/>
+		<property name="com.jaspersoft.studio.data.sql.SQLQueryDesigner.sash.w2" value="692"/>
+		<parameter name="Zamowienie" class="java.lang.String" nestedType="java.lang.String"/>
+		<parameter name="dokument" class="java.lang.String"/>
+		<queryString language="SQL">
+			<![CDATA[select
+producent||' '||nazwa||' '||p.rodzaj||' '||smak||' '||gramaturailosc||gramaturajm as "Nazwa artykulu",
+p.kod,sum(ilosc),
+jednostkamiary,
+p.cenanetto,
+sum(wartoscnetto),
+sum(stawkavat),
+sum(kwotavat),
+sum(wartoscbrutto),
+pkwiu
+from produkty_hs p
+join szczegoly_zamowien_hs sz
+on p.kod = sz.kodproduktu
+join dokumenty_sprzedazy_hs ds
+on ds.nr = sz.nrdokumentu
+where upper(sz.nrzamowienia) = upper( $P{Zamowienie} )
+and upper(nrdokumentu) = upper( $P{dokument} )
+or upper(nrdokumentu) = upper( 
+(select nrfaktury 
+	from dokumenty_sprzedazy_hs 
+	where upper(nr) = upper( $P{dokument} )
+))
+and p.kod in (
+select sz.kodproduktu
+from szczegoly_zamowien_hs sz
+where upper(nrzamowienia) = upper( $P{Zamowienie} ) 
+group by sz.kodproduktu
+having count(sz.kodproduktu) > 1)
+group by producent,nazwa,p.rodzaj,smak,gramaturailosc,gramaturajm,
+p.kod,jednostkamiary,p.cenanetto,stawkavat,pkwiu]]>
+		</queryString>
+		<field name="Nazwa artykulu" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.label" value="Nazwa artykulu"/>
+		</field>
+		<field name="KOD" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.label" value="KOD"/>
+		</field>
+		<field name="SUM(ILOSC)" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.label" value="SUM(ILOSC)"/>
+		</field>
+		<field name="JEDNOSTKAMIARY" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.label" value="JEDNOSTKAMIARY"/>
+		</field>
+		<field name="CENANETTO" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.label" value="CENANETTO"/>
+		</field>
+		<field name="SUM(WARTOSCNETTO)" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.label" value="SUM(WARTOSCNETTO)"/>
+		</field>
+		<field name="SUM(STAWKAVAT)" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.label" value="SUM(STAWKAVAT)"/>
+		</field>
+		<field name="SUM(KWOTAVAT)" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.label" value="SUM(KWOTAVAT)"/>
+		</field>
+		<field name="SUM(WARTOSCBRUTTO)" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.label" value="SUM(WARTOSCBRUTTO)"/>
+		</field>
+		<field name="PKWIU" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.label" value="PKWIU"/>
+		</field>
+	</subDataset>
+	<subDataset name="Podsumowanie przed korektą" uuid="cee5cf06-ad8b-42a6-9c3f-423afe8148b9">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Oracle Database"/>
+		<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+		<parameter name="Zamowienie" class="java.lang.String"/>
+		<queryString>
+			<![CDATA[select
+sum(wartoscnetto),
+sum(kwotavat),
+sum(wartoscbrutto)
+from szczegoly_zamowien_hs
+where upper(nrzamowienia) = upper($P{Zamowienie}) 
+and ilosc > 0]]>
+		</queryString>
+		<field name="SUM(WARTOSCNETTO)" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.label" value="SUM(WARTOSCNETTO)"/>
+		</field>
+		<field name="SUM(KWOTAVAT)" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.label" value="SUM(KWOTAVAT)"/>
+		</field>
+		<field name="SUM(WARTOSCBRUTTO)" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.label" value="SUM(WARTOSCBRUTTO)"/>
+		</field>
+	</subDataset>
+	<subDataset name="Podsumowanie po korekcie" uuid="e173d4fa-6cbf-488a-924f-b304d45b272a">
+		<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Oracle Database"/>
+		<parameter name="Zamowienie" class="java.lang.String"/>
+		<queryString language="SQL">
+			<![CDATA[select
+sum(wartoscnetto),
+sum(kwotavat),
+sum(wartoscbrutto)
+from szczegoly_zamowien_hs
+where upper(nrzamowienia) = upper($P{Zamowienie})]]>
+		</queryString>
+		<field name="SUM(WARTOSCNETTO)" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.label" value="SUM(WARTOSCNETTO)"/>
+		</field>
+		<field name="SUM(KWOTAVAT)" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.label" value="SUM(KWOTAVAT)"/>
+		</field>
+		<field name="SUM(WARTOSCBRUTTO)" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.label" value="SUM(WARTOSCBRUTTO)"/>
+		</field>
+	</subDataset>
+	<subDataset name="podsumowanie Wartosc korekty" uuid="dfa64537-cef4-482a-a00b-95b5ff4cebbe">
+		<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Oracle Database"/>
+		<parameter name="Zamowienie" class="java.lang.String"/>
+		<queryString language="SQL">
+			<![CDATA[select
+sum(wartoscnetto),
+sum(kwotavat),
+sum(wartoscbrutto)
+from szczegoly_zamowien_hs
+where upper(nrzamowienia) = upper($P{Zamowienie}) 
+and ilosc < 0]]>
+		</queryString>
+		<field name="SUM(WARTOSCNETTO)" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.label" value="SUM(WARTOSCNETTO)"/>
+		</field>
+		<field name="SUM(KWOTAVAT)" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.label" value="SUM(KWOTAVAT)"/>
+		</field>
+		<field name="SUM(WARTOSCBRUTTO)" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.label" value="SUM(WARTOSCBRUTTO)"/>
+		</field>
+	</subDataset>
+	<subDataset name="Towar zwrotny" uuid="870cea0a-0205-49a3-a0a0-d36cabe90a3b">
+		<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Oracle Database"/>
+		<parameter name="Zamowienie" class="java.lang.String"/>
+		<parameter name="Dokument" class="java.lang.String"/>
+		<queryString language="SQL">
+			<![CDATA[select 
+"PRODUKTY_HS".producent||' '||"PRODUKTY_HS".nazwa||' '||
+nvl("PRODUKTY_HS".rodzaj,'')
+||' '||"PRODUKTY_HS".smak||' '||"PRODUKTY_HS".gramaturailosc||"PRODUKTY_HS".gramaturajm as "Nazwa artykulu",
+	"PRODUKTY_HS".jednostkamiary,
+	"SZCZEGOLY_ZAMOWIEN_HS"."POZYCJA" as "Pozycja",
+	"SZCZEGOLY_ZAMOWIEN_HS"."KODPRODUKTU" as "Kod produktu",
+	"SZCZEGOLY_ZAMOWIEN_HS"."ILOSC" as "Ilość", 
+	"SZCZEGOLY_ZAMOWIEN_HS"."CENANETTO" as "Cena netto",
+	"SZCZEGOLY_ZAMOWIEN_HS"."STAWKAVAT" as "Stawka VAT",
+	"SZCZEGOLY_ZAMOWIEN_HS"."WARTOSCNETTO" as "Wartosc Netto",
+	"SZCZEGOLY_ZAMOWIEN_HS"."KWOTAVAT" as "Kwota VAT",
+	"SZCZEGOLY_ZAMOWIEN_HS"."CENABRUTTO" as "Cena brutto",
+	"SZCZEGOLY_ZAMOWIEN_HS"."WARTOSCBRUTTO" as "Wartość brutto"
+FROM "SZCZEGOLY_ZAMOWIEN_HS" 
+	INNER JOIN "PRODUKTY_HS" ON 
+	 "SZCZEGOLY_ZAMOWIEN_HS"."KODPRODUKTU" = "PRODUKTY_HS"."KOD"
+	where upper("SZCZEGOLY_ZAMOWIEN_HS"."NRZAMOWIENIA") =    upper($P{Zamowienie}) 
+	 and upper("SZCZEGOLY_ZAMOWIEN_HS".nrdokumentu) like  upper($P{Dokument})]]>
+		</queryString>
+		<field name="Nazwa artykulu" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.label" value="Nazwa artykulu"/>
+		</field>
+		<field name="JEDNOSTKAMIARY" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.label" value="JEDNOSTKAMIARY"/>
+		</field>
+		<field name="Pozycja" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.label" value="Pozycja"/>
+		</field>
+		<field name="Kod produktu" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.label" value="Kod produktu"/>
+		</field>
+		<field name="Ilość" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.label" value="Ilość"/>
+		</field>
+		<field name="Cena netto" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.label" value="Cena netto"/>
+		</field>
+		<field name="Stawka VAT" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.label" value="Stawka VAT"/>
+		</field>
+		<field name="Wartosc Netto" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.label" value="Wartosc Netto"/>
+		</field>
+		<field name="Kwota VAT" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.label" value="Kwota VAT"/>
+		</field>
+		<field name="Cena brutto" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.label" value="Cena brutto"/>
+		</field>
+		<field name="Wartość brutto" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.label" value="Wartość brutto"/>
+		</field>
+	</subDataset>
+	<parameter name="NumerZamowienia" class="java.lang.String"/>
+	<parameter name="NumerDokumentu" class="java.lang.String"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT "PRACOWNICY_HS"."NAZWISKO" as "Nazwisko Pracownika",
+	"PRACOWNICY_HS"."IMIE" as "Imię Pracownika",
+	"ZAMOWIENIA_HS"."DATA" as "Data zamówienia",
+	"ZAMOWIENIA_HS"."NR" as "Numer zamówienia",
+	"ZAMOWIENIA_HS"."WARTOSC" as "Wartość zamówienia",
+	"ZAMOWIENIA_HS"."DATAREALIZACJI" as "Data realizacji",
+	"ZAMOWIENIA_HS"."DATADOSTAWY" as "Data dostawy",
+	"ZAMOWIENIA_HS"."WAGA" as "Waga zamówienia",
+	"ZAMOWIENIA_HS"."STATUS" as "Status zamówienia",
+	"SPRZEDAWCY_HS"."NIPPESEL" as "NIP\\Pesel sprzedawcy",
+	"SPRZEDAWCY_HS"."NAZWAFIRMY" as "Nazwa firmy sprzedawcy",
+	"SPRZEDAWCY_HS"."NAZWISKO"as "Nazwisko sprzedawcy",
+	"SPRZEDAWCY_HS"."IMIE" as "Imię sprzedawcy",  
+	"SPRZEDAWCY_HS"."MIASTO" as "Miasto sprzedawcy",
+	"SPRZEDAWCY_HS"."KODPOCZTOWY" as "Kod pocztowy sprzedawcy",
+	"SPRZEDAWCY_HS"."ULICA" as "Ulica sprzedawcy",
+	"SPRZEDAWCY_HS"."NRBUDYNKU" as "Nr budynku sprzedawcy",
+	"SPRZEDAWCY_HS"."NRLOKALU" as "Nr lokalu sprzedawcy",
+	"SPRZEDAWCY_HS"."NRTELEFONU" as "Nr telefonu sprzedawcy",
+	"SPRZEDAWCY_HS"."FAX" as "Fax sprzedawcy",
+	"SPRZEDAWCY_HS"."NRKONTA" as "Nr konta sprzedawcy",
+	"SPRZEDAWCY_HS"."NAZWABANKU" as "Nazwa banku sprzedawcy",
+	"DOKUMENTY_SPRZEDAZY_HS"."NR" as "Numer faktury",
+	"DOKUMENTY_SPRZEDAZY_HS"."DATA" as "Data wystawienia faktury",
+	"DOKUMENTY_SPRZEDAZY_HS"."MIEJSCEWYSTAWIENIA" as "Miejsce wystawienia faktury",
+	"DOKUMENTY_SPRZEDAZY_HS"."WARTOSC" as "Wartość faktury",
+	"DOKUMENTY_SPRZEDAZY_HS"."SPOSOBZAPLATY" as "Sposob zaplaty faktury",
+	"DOKUMENTY_SPRZEDAZY_HS"."TERMINZAPLATY" as "Termin zapłaty faktury",
+	"DOKUMENTY_SPRZEDAZY_HS"."RODZAJ" as "Rodzaj faktury",
+	ds."NR" as "Numer korekty",
+    ds."DATA" as "Data wystawienia korekty",
+	ds."MIEJSCEWYSTAWIENIA" as "Miejsce wystawienia korekty",
+	ds."WARTOSC" as "Wartość korekty",
+	ds."SPOSOBZAPLATY" as "Sposob zaplaty korekty",
+	ds."TERMINZAPLATY" as "Termin zapłaty korekty",
+	ds."RODZAJ" as "Rodzaj korekty",
+	"MIEJSCA_DOSTAW_HS"."NIPPESEL" as "NIP\\PESEL miejsce dostawy",
+	"MIEJSCA_DOSTAW_HS"."NAZWAFIRMY" as  "Nazwa firmy miejsce dostawy",
+	"MIEJSCA_DOSTAW_HS"."NAZWISKO" as "Nazwisko miejsce dostawy",
+	"MIEJSCA_DOSTAW_HS"."IMIE" as "Imię miejsce dostawy" ,
+	"MIEJSCA_DOSTAW_HS"."MIASTO" as "Miasto miejsce dostawy",
+	"MIEJSCA_DOSTAW_HS"."KODPOCZTOWY" as "Kod pocztowy miejsce dostawy" ,
+	"MIEJSCA_DOSTAW_HS"."ULICA" as  "Ulica miejsce dostawy",
+	"MIEJSCA_DOSTAW_HS"."NRBUDYNKU" as "Nr budynku miejsce dostawy",
+	"MIEJSCA_DOSTAW_HS"."NRLOKALU" as "Nr lokalu miejsce dostawy",
+	"MIEJSCA_DOSTAW_HS"."NRTELEFONU"as "Nr teleofnu miejsce dostawy",
+	"KLIENCI_HS"."NIPPESEL" as "NIP\\PESEL klienta",
+	"KLIENCI_HS"."NAZWAFIRMY" as "Nazwa firmy klienta",
+	"KLIENCI_HS"."NAZWISKO" as "Nazwisko klienta",
+	"KLIENCI_HS"."IMIE" as "Imię klienta",
+	"KLIENCI_HS"."MIASTO" as "Miasto klienta",
+	"KLIENCI_HS"."KODPOCZTOWY" as  "Kod pocztowy klienta",
+	"KLIENCI_HS"."ULICA" as "Ulica klienta",
+	"KLIENCI_HS"."NRBUDYNKU" as "Nr budynku klienta",
+	"KLIENCI_HS"."NRLOKALU" as "Nr lokalu klienta",
+	"KLIENCI_HS"."NRTELEFONU" as "Nr telefonu klienta",
+	"KLIENCI_HS"."FAX" as "Fax klienta"
+FROM "DOKUMENTY_SPRZEDAZY_HS"
+	INNER JOIN "PRACOWNICY_HS" ON 
+	 "DOKUMENTY_SPRZEDAZY_HS"."LOGINPRACOWNIKA" = "PRACOWNICY_HS"."LOGIN" 
+	INNER JOIN "ZAMOWIENIA_HS" ON 
+	 "DOKUMENTY_SPRZEDAZY_HS"."NRZAMOWIENIA" = "ZAMOWIENIA_HS"."NR" 
+	INNER JOIN "KLIENCI_HS" ON 
+	 "ZAMOWIENIA_HS"."NRKLIENTA" = "KLIENCI_HS"."NR" 
+	INNER JOIN "SPRZEDAWCY_HS" ON 
+	 "ZAMOWIENIA_HS"."NIPPESELSPRZEDAWCY" = "SPRZEDAWCY_HS"."NIPPESEL" 
+	inner join "MIEJSCA_DOSTAW_HS" on
+    "MIEJSCA_DOSTAW_HS"."NRZAMOWIENIA" = "ZAMOWIENIA_HS"."NR" 
+	inner join  "SZCZEGOLY_ZAMOWIEN_HS" on
+    "SZCZEGOLY_ZAMOWIEN_HS"."NRZAMOWIENIA" = "ZAMOWIENIA_HS"."NR" 
+	INNER JOIN "PRODUKTY_HS" ON 
+	 "SZCZEGOLY_ZAMOWIEN_HS"."KODPRODUKTU" = "PRODUKTY_HS"."KOD"
+	INNER JOIN "DOKUMENTY_SPRZEDAZY_HS" DS ON 
+	ds.nrfaktury =  "DOKUMENTY_SPRZEDAZY_HS"."NR"
+	where upper("DOKUMENTY_SPRZEDAZY_HS"."NRZAMOWIENIA") =  upper($P{NumerZamowienia}) 
+	 and upper(ds."NR") like upper($P{NumerDokumentu}) 
+	 fetch first 1 row only]]>
+	</queryString>
+	<field name="Nazwisko Pracownika" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Nazwisko Pracownika"/>
+	</field>
+	<field name="Imię Pracownika" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Imię Pracownika"/>
+	</field>
+	<field name="Data zamówienia" class="java.sql.Timestamp">
+		<property name="com.jaspersoft.studio.field.label" value="Data zamówienia"/>
+	</field>
+	<field name="Numer zamówienia" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Numer zamówienia"/>
+	</field>
+	<field name="Wartość zamówienia" class="java.math.BigDecimal">
+		<property name="com.jaspersoft.studio.field.label" value="Wartość zamówienia"/>
+	</field>
+	<field name="Data realizacji" class="java.sql.Timestamp">
+		<property name="com.jaspersoft.studio.field.label" value="Data realizacji"/>
+	</field>
+	<field name="Data dostawy" class="java.sql.Timestamp">
+		<property name="com.jaspersoft.studio.field.label" value="Data dostawy"/>
+	</field>
+	<field name="Waga zamówienia" class="java.math.BigDecimal">
+		<property name="com.jaspersoft.studio.field.label" value="Waga zamówienia"/>
+	</field>
+	<field name="Status zamówienia" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Status zamówienia"/>
+	</field>
+	<field name="NIP\\Pesel sprzedawcy" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="NIP\\Pesel sprzedawcy"/>
+	</field>
+	<field name="Nazwa firmy sprzedawcy" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Nazwa firmy sprzedawcy"/>
+	</field>
+	<field name="Nazwisko sprzedawcy" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Nazwisko sprzedawcy"/>
+	</field>
+	<field name="Imię sprzedawcy" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Imię sprzedawcy"/>
+	</field>
+	<field name="Miasto sprzedawcy" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Miasto sprzedawcy"/>
+	</field>
+	<field name="Kod pocztowy sprzedawcy" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Kod pocztowy sprzedawcy"/>
+	</field>
+	<field name="Ulica sprzedawcy" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Ulica sprzedawcy"/>
+	</field>
+	<field name="Nr budynku sprzedawcy" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Nr budynku sprzedawcy"/>
+	</field>
+	<field name="Nr lokalu sprzedawcy" class="java.math.BigDecimal">
+		<property name="com.jaspersoft.studio.field.label" value="Nr lokalu sprzedawcy"/>
+	</field>
+	<field name="Nr telefonu sprzedawcy" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Nr telefonu sprzedawcy"/>
+	</field>
+	<field name="Fax sprzedawcy" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Fax sprzedawcy"/>
+	</field>
+	<field name="Nr konta sprzedawcy" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Nr konta sprzedawcy"/>
+	</field>
+	<field name="Nazwa banku sprzedawcy" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Nazwa banku sprzedawcy"/>
+	</field>
+	<field name="Numer faktury" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Numer faktury"/>
+	</field>
+	<field name="Data wystawienia faktury" class="java.sql.Timestamp">
+		<property name="com.jaspersoft.studio.field.label" value="Data wystawienia faktury"/>
+	</field>
+	<field name="Miejsce wystawienia faktury" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Miejsce wystawienia faktury"/>
+	</field>
+	<field name="Wartość faktury" class="java.math.BigDecimal">
+		<property name="com.jaspersoft.studio.field.label" value="Wartość faktury"/>
+	</field>
+	<field name="Sposob zaplaty faktury" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Sposob zaplaty faktury"/>
+	</field>
+	<field name="Termin zapłaty faktury" class="java.sql.Timestamp">
+		<property name="com.jaspersoft.studio.field.label" value="Termin zapłaty faktury"/>
+	</field>
+	<field name="Rodzaj faktury" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Rodzaj faktury"/>
+	</field>
+	<field name="Numer korekty" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Numer korekty"/>
+	</field>
+	<field name="Data wystawienia korekty" class="java.sql.Timestamp">
+		<property name="com.jaspersoft.studio.field.label" value="Data wystawienia korekty"/>
+	</field>
+	<field name="Miejsce wystawienia korekty" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Miejsce wystawienia korekty"/>
+	</field>
+	<field name="Wartość korekty" class="java.math.BigDecimal">
+		<property name="com.jaspersoft.studio.field.label" value="Wartość korekty"/>
+	</field>
+	<field name="Sposob zaplaty korekty" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Sposob zaplaty korekty"/>
+	</field>
+	<field name="Termin zapłaty korekty" class="java.sql.Timestamp">
+		<property name="com.jaspersoft.studio.field.label" value="Termin zapłaty korekty"/>
+	</field>
+	<field name="Rodzaj korekty" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Rodzaj korekty"/>
+	</field>
+	<field name="NIP\\PESEL miejsce dostawy" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="NIP\\PESEL miejsce dostawy"/>
+	</field>
+	<field name="Nazwa firmy miejsce dostawy" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Nazwa firmy miejsce dostawy"/>
+	</field>
+	<field name="Nazwisko miejsce dostawy" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Nazwisko miejsce dostawy"/>
+	</field>
+	<field name="Imię miejsce dostawy" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Imię miejsce dostawy"/>
+	</field>
+	<field name="Miasto miejsce dostawy" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Miasto miejsce dostawy"/>
+	</field>
+	<field name="Kod pocztowy miejsce dostawy" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Kod pocztowy miejsce dostawy"/>
+	</field>
+	<field name="Ulica miejsce dostawy" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Ulica miejsce dostawy"/>
+	</field>
+	<field name="Nr budynku miejsce dostawy" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Nr budynku miejsce dostawy"/>
+	</field>
+	<field name="Nr lokalu miejsce dostawy" class="java.math.BigDecimal">
+		<property name="com.jaspersoft.studio.field.label" value="Nr lokalu miejsce dostawy"/>
+	</field>
+	<field name="Nr teleofnu miejsce dostawy" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Nr teleofnu miejsce dostawy"/>
+	</field>
+	<field name="NIP\\PESEL klienta" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="NIP\\PESEL klienta"/>
+	</field>
+	<field name="Nazwa firmy klienta" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Nazwa firmy klienta"/>
+	</field>
+	<field name="Nazwisko klienta" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Nazwisko klienta"/>
+	</field>
+	<field name="Imię klienta" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Imię klienta"/>
+	</field>
+	<field name="Miasto klienta" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Miasto klienta"/>
+	</field>
+	<field name="Kod pocztowy klienta" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Kod pocztowy klienta"/>
+	</field>
+	<field name="Ulica klienta" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Ulica klienta"/>
+	</field>
+	<field name="Nr budynku klienta" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Nr budynku klienta"/>
+	</field>
+	<field name="Nr lokalu klienta" class="java.math.BigDecimal">
+		<property name="com.jaspersoft.studio.field.label" value="Nr lokalu klienta"/>
+	</field>
+	<field name="Nr telefonu klienta" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Nr telefonu klienta"/>
+	</field>
+	<field name="Fax klienta" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Fax klienta"/>
+	</field>
+	<group name="Nazwisko Pracownika">
+		<groupExpression><![CDATA[$F{Nazwisko Pracownika}]]></groupExpression>
+	</group>
+	<group name="Imię Pracownika">
+		<groupExpression><![CDATA[$F{Imię Pracownika}]]></groupExpression>
+	</group>
+	<group name="Data zamówienia">
+		<groupExpression><![CDATA[$F{Data zamówienia}]]></groupExpression>
+	</group>
+	<group name="Numer zamówienia">
+		<groupExpression><![CDATA[$F{Numer zamówienia}]]></groupExpression>
+	</group>
+	<group name="Wartość zamówienia">
+		<groupExpression><![CDATA[$F{Wartość zamówienia}]]></groupExpression>
+	</group>
+	<group name="Data realizacji">
+		<groupExpression><![CDATA[$F{Data realizacji}]]></groupExpression>
+	</group>
+	<group name="Data dostawy">
+		<groupExpression><![CDATA[$F{Data dostawy}]]></groupExpression>
+	</group>
+	<group name="Waga zamówienia">
+		<groupExpression><![CDATA[$F{Waga zamówienia}]]></groupExpression>
+	</group>
+	<group name="Status zamówienia">
+		<groupExpression><![CDATA[$F{Status zamówienia}]]></groupExpression>
+	</group>
+	<group name="NIP\\Pesel sprzedawcy">
+		<groupExpression><![CDATA[$F{NIP\\Pesel sprzedawcy}]]></groupExpression>
+	</group>
+	<group name="Nazwa firmy sprzedawcy">
+		<groupExpression><![CDATA[$F{Nazwa firmy sprzedawcy}]]></groupExpression>
+	</group>
+	<group name="Nazwisko sprzedawcy">
+		<groupExpression><![CDATA[$F{Nazwisko sprzedawcy}]]></groupExpression>
+	</group>
+	<group name="Imię sprzedawcy">
+		<groupExpression><![CDATA[$F{Imię sprzedawcy}]]></groupExpression>
+	</group>
+	<group name="Miasto sprzedawcy">
+		<groupExpression><![CDATA[$F{Miasto sprzedawcy}]]></groupExpression>
+	</group>
+	<group name="Kod pocztowy sprzedawcy">
+		<groupExpression><![CDATA[$F{Kod pocztowy sprzedawcy}]]></groupExpression>
+	</group>
+	<group name="Ulica sprzedawcy">
+		<groupExpression><![CDATA[$F{Ulica sprzedawcy}]]></groupExpression>
+	</group>
+	<group name="Nr budynku sprzedawcy">
+		<groupExpression><![CDATA[$F{Nr budynku sprzedawcy}]]></groupExpression>
+	</group>
+	<group name="Nr lokalu sprzedawcy">
+		<groupExpression><![CDATA[$F{Nr lokalu sprzedawcy}]]></groupExpression>
+	</group>
+	<group name="Nr telefonu sprzedawcy">
+		<groupExpression><![CDATA[$F{Nr telefonu sprzedawcy}]]></groupExpression>
+	</group>
+	<group name="Fax sprzedawcy">
+		<groupExpression><![CDATA[$F{Fax sprzedawcy}]]></groupExpression>
+	</group>
+	<group name="Nr konta sprzedawcy">
+		<groupExpression><![CDATA[$F{Nr konta sprzedawcy}]]></groupExpression>
+	</group>
+	<group name="Nazwa banku sprzedawcy">
+		<groupExpression><![CDATA[$F{Nazwa banku sprzedawcy}]]></groupExpression>
+	</group>
+	<group name="Numer faktury">
+		<groupExpression><![CDATA[$F{Numer faktury}]]></groupExpression>
+	</group>
+	<group name="Data wystawienia faktury">
+		<groupExpression><![CDATA[$F{Data wystawienia faktury}]]></groupExpression>
+	</group>
+	<group name="Miejsce wystawienia faktury">
+		<groupExpression><![CDATA[$F{Miejsce wystawienia faktury}]]></groupExpression>
+	</group>
+	<group name="Wartość faktury">
+		<groupExpression><![CDATA[$F{Wartość faktury}]]></groupExpression>
+	</group>
+	<group name="Sposob zaplaty faktury">
+		<groupExpression><![CDATA[$F{Sposob zaplaty faktury}]]></groupExpression>
+	</group>
+	<group name="Termin zapłaty faktury">
+		<groupExpression><![CDATA[$F{Termin zapłaty faktury}]]></groupExpression>
+	</group>
+	<group name="Rodzaj faktury">
+		<groupExpression><![CDATA[$F{Rodzaj faktury}]]></groupExpression>
+	</group>
+	<group name="NIP\\PESEL miejsce dostawy">
+		<groupExpression><![CDATA[$F{NIP\\PESEL miejsce dostawy}]]></groupExpression>
+	</group>
+	<group name="Nazwa firmy miejsce dostawy">
+		<groupExpression><![CDATA[$F{Nazwa firmy miejsce dostawy}]]></groupExpression>
+	</group>
+	<group name="Nazwisko miejsce dostawy">
+		<groupExpression><![CDATA[$F{Nazwisko miejsce dostawy}]]></groupExpression>
+	</group>
+	<group name="Imię miejsce dostawy">
+		<groupExpression><![CDATA[$F{Imię miejsce dostawy}]]></groupExpression>
+	</group>
+	<group name="Miasto miejsce dostawy">
+		<groupExpression><![CDATA[$F{Miasto miejsce dostawy}]]></groupExpression>
+	</group>
+	<group name="Kod pocztowy miejsce dostawy">
+		<groupExpression><![CDATA[$F{Kod pocztowy miejsce dostawy}]]></groupExpression>
+	</group>
+	<group name="Ulica miejsce dostawy">
+		<groupExpression><![CDATA[$F{Ulica miejsce dostawy}]]></groupExpression>
+	</group>
+	<group name="Nr budynku miejsce dostawy">
+		<groupExpression><![CDATA[$F{Nr budynku miejsce dostawy}]]></groupExpression>
+	</group>
+	<group name="Nr lokalu miejsce dostawy">
+		<groupExpression><![CDATA[$F{Nr lokalu miejsce dostawy}]]></groupExpression>
+	</group>
+	<group name="Nr teleofnu miejsce dostawy">
+		<groupExpression><![CDATA[$F{Nr teleofnu miejsce dostawy}]]></groupExpression>
+	</group>
+	<group name="NIP\\PESEL klienta">
+		<groupExpression><![CDATA[$F{NIP\\PESEL klienta}]]></groupExpression>
+	</group>
+	<group name="Nazwa firmy klienta">
+		<groupExpression><![CDATA[$F{Nazwa firmy klienta}]]></groupExpression>
+	</group>
+	<group name="Nazwisko klienta">
+		<groupExpression><![CDATA[$F{Nazwisko klienta}]]></groupExpression>
+	</group>
+	<group name="Imię klienta">
+		<groupExpression><![CDATA[$F{Imię klienta}]]></groupExpression>
+	</group>
+	<group name="Miasto klienta">
+		<groupExpression><![CDATA[$F{Miasto klienta}]]></groupExpression>
+	</group>
+	<group name="Kod pocztowy klienta">
+		<groupExpression><![CDATA[$F{Kod pocztowy klienta}]]></groupExpression>
+	</group>
+	<group name="Ulica klienta">
+		<groupExpression><![CDATA[$F{Ulica klienta}]]></groupExpression>
+	</group>
+	<group name="Nr budynku klienta">
+		<groupExpression><![CDATA[$F{Nr budynku klienta}]]></groupExpression>
+	</group>
+	<group name="Nr lokalu klienta">
+		<groupExpression><![CDATA[$F{Nr lokalu klienta}]]></groupExpression>
+	</group>
+	<group name="Nr telefonu klienta">
+		<groupExpression><![CDATA[$F{Nr telefonu klienta}]]></groupExpression>
+	</group>
+	<group name="Fax klienta">
+		<groupExpression><![CDATA[$F{Fax klienta}]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="531" splitType="Stretch">
+			<image>
+				<reportElement x="70" y="20" width="190" height="60" uuid="78c254a7-9baf-4f0d-9a22-74c933762ba2"/>
+				<imageExpression><![CDATA["C:/Users/Iras/Dropbox/Storage/Praca Inżynierska/Hurtownia Spożywcza/Logo.JPG"]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="460" y="28" width="90" height="15" uuid="6cd96de4-4658-4f9e-9c72-5c3e50718024">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="ca2bbb02-2175-4598-a0d0-0b7f80637edf"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="DejaVu Serif"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Miejsce wystawienia korekty}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="350" y="28" width="110" height="15" uuid="bf46968c-42db-4e9f-937b-26d64a1952fa">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="ca2bbb02-2175-4598-a0d0-0b7f80637edf"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="DejaVu Serif"/>
+				</textElement>
+				<text><![CDATA[Miejsce wystawienia:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="450" y="43" width="100" height="15" uuid="6a113e2b-73d2-4140-8988-f921d9fb9ca3">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="8419f59d-a3de-47ca-860f-c44d9dc762b6"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="DejaVu Serif"/>
+				</textElement>
+				<textFieldExpression><![CDATA[DATEFORMAT($F{Data wystawienia korekty},"dd.MM.yyyy" )]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="350" y="43" width="100" height="15" uuid="b771626b-aaf1-4846-8e33-1173b935ee86">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="8419f59d-a3de-47ca-860f-c44d9dc762b6"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="DejaVu Serif"/>
+				</textElement>
+				<text><![CDATA[Data wystawienia:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="64" y="100" width="466" height="30" uuid="040eb925-1838-4771-ac16-ef9c0ac7fe03">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="52a14544-00a3-4c33-91f0-85d4f06b2e35"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Serif" size="20"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Faktura korygująca "+$F{Numer korekty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="64" y="146" width="146" height="18" uuid="57e8a02d-b098-47c7-b613-8c216ddd2657">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="2cabaf6a-a64e-43dc-9fab-09b1fdd2b290"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="DejaVu Serif" size="12" isItalic="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Nr: "+$F{Numer faktury}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="90" y="180" width="120" height="30" uuid="77ed08e6-cd9b-4bcc-8ca2-a1dcb5ea2394">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="c6f199c8-7c2f-4a83-9857-99c795425744"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Serif" size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Sprzedawca:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="70" y="210" width="130" height="15" uuid="bfceed2a-5f9f-458b-ba76-7c07769cc833">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="c6f199c8-7c2f-4a83-9857-99c795425744"/>
+					<printWhenExpression><![CDATA[$F{Nazwa firmy sprzedawcy} != null ? true : false]]></printWhenExpression>
+				</reportElement>
+				<textElement markup="none">
+					<font fontName="DejaVu Serif"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Nazwa firmy sprzedawcy}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="360" y="210" width="140" height="15" uuid="16423a91-0d71-4046-828a-a3bed8ebda65">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="58ad87bd-b1c6-4698-93bf-d9a38181ff00"/>
+					<printWhenExpression><![CDATA[$F{Nazwa firmy klienta} != null ? true : false]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Serif"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Nazwa firmy klienta}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="380" y="180" width="100" height="30" uuid="b819ff27-4a99-4da3-81a5-340efbd76171">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="58ad87bd-b1c6-4698-93bf-d9a38181ff00"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Serif" size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Nabywca:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="70" y="225" width="240" height="15" uuid="13ce8273-9cc2-4fdd-9719-0a6eebbe82e7">
+					<printWhenExpression><![CDATA[$F{Nazwisko sprzedawcy} != null || $F{Imię sprzedawcy} != null ? true : false]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Serif"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Nazwisko sprzedawcy}+" "+$F{Imię sprzedawcy}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="360" y="225" width="180" height="15" uuid="52675a0b-4cec-488a-94fe-8938897feb67">
+					<printWhenExpression><![CDATA[$F{Nazwisko klienta} != null || $F{Imię klienta} != null ? true : false]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Serif"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Nazwisko klienta} +" "+$F{Imię klienta}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="70" y="240" width="240" height="15" uuid="07f61f6b-6d2f-42b4-b20c-d4ddeadc203b"/>
+				<textElement>
+					<font fontName="DejaVu Serif"/>
+				</textElement>
+				<textFieldExpression><![CDATA["ul. "+$F{Ulica sprzedawcy}+" "+$F{Nr budynku sprzedawcy}+($F{Nr lokalu sprzedawcy}!=null?"m. "+$F{Nr lokalu sprzedawcy}:" ")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="360" y="240" width="180" height="15" uuid="385bb1bc-7417-4afd-b035-513d42ab1661"/>
+				<textElement>
+					<font fontName="DejaVu Serif"/>
+				</textElement>
+				<textFieldExpression><![CDATA["ul. "+$F{Ulica klienta}+" "+$F{Nr budynku klienta}+($F{Nr lokalu klienta}!=null?"m. "+$F{Nr lokalu klienta}:" ")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="70" y="255" width="240" height="15" uuid="a306cef1-31ab-4434-8950-a07d859d4d5d"/>
+				<textElement>
+					<font fontName="DejaVu Serif"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Kod pocztowy sprzedawcy}+" "+$F{Miasto sprzedawcy}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="360" y="255" width="180" height="15" uuid="21b9d69b-9573-47d7-8a47-0214c55bd949"/>
+				<textElement>
+					<font fontName="DejaVu Serif"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Kod pocztowy klienta}+" "+$F{Miasto klienta}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="70" y="280" width="240" height="20" uuid="726d8f63-c479-4e06-8189-3262ef02f2c8"/>
+				<textElement>
+					<font fontName="DejaVu Serif"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Tel. "+$F{Nr telefonu sprzedawcy}+" "+($F{Fax sprzedawcy} != null ?"Fax. "+$F{Fax sprzedawcy}:" ")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="360" y="280" width="190" height="20" uuid="319073e0-3e28-47a4-a44e-15c1cb92c406"/>
+				<textElement>
+					<font fontName="DejaVu Serif"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Tel. "+$F{Nr telefonu klienta}+" "+($F{Fax klienta} != null ?"Fax. "+$F{Fax klienta}:" ")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="70" y="300" width="240" height="15" uuid="1ac858e6-629c-49bd-8f5e-ae90e154472d"/>
+				<textElement>
+					<font fontName="DejaVu Serif"/>
+				</textElement>
+				<textFieldExpression><![CDATA["NIP: "+$F{NIP\\Pesel sprzedawcy}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="360" y="300" width="190" height="15" uuid="9ac33705-e86f-4f6f-bfbd-48a2fff07552"/>
+				<textElement>
+					<font fontName="DejaVu Serif"/>
+				</textElement>
+				<textFieldExpression><![CDATA["NIP\\Pesel: "+$F{NIP\\PESEL klienta}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="350" y="460" width="190" height="15" uuid="644cfc57-53a7-48cc-8779-6db8e26a4ca0">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="bb846490-b5e6-4308-a65f-7f4b3a705215"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Serif"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Termin zapłaty: "+DATEFORMAT($F{Termin zapłaty korekty},"dd.MM.yyyy" )]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="40" y="460" width="190" height="15" uuid="664a036c-a041-4c26-8f9d-adaa649dbf3c">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="98e9d2bb-e13b-47e5-9935-2c9d2ad1ecd8"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Serif"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Sposób zapłaty:"+$F{Sposob zaplaty korekty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="40" y="475" width="350" height="17" uuid="dc895973-3cff-4001-bada-4b135e0474af">
+					<printWhenExpression><![CDATA[UPPER($F{Sposob zaplaty korekty})=="GOTÓWKA"?true:false]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Serif"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Konto: "+$F{Nazwa banku sprzedawcy}+" "+$F{Nr konta sprzedawcy}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="380" y="334" width="110" height="16" uuid="09934fd0-565b-4e1f-9697-27d0863cd7ef">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="58ad87bd-b1c6-4698-93bf-d9a38181ff00"/>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Serif" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Miejsce dostawy:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="360" y="350" width="140" height="15" uuid="e696fe6d-cf37-4028-b2e1-e09894f87cef">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="58ad87bd-b1c6-4698-93bf-d9a38181ff00"/>
+					<printWhenExpression><![CDATA[$F{Nazwa firmy miejsce dostawy} != null ? true : false]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Serif"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Nazwa firmy miejsce dostawy}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="360" y="365" width="180" height="15" uuid="e02bc0f3-2727-41ce-adb6-c14e8821256a">
+					<printWhenExpression><![CDATA[$F{Nazwisko miejsce dostawy} != null || $F{Imię miejsce dostawy} != null ? true : false]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="DejaVu Serif"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Nazwisko miejsce dostawy} +" "+$F{Imię miejsce dostawy}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="360" y="380" width="180" height="15" uuid="13148bea-c340-403b-abe2-15988d6d334e"/>
+				<textElement>
+					<font fontName="DejaVu Serif"/>
+				</textElement>
+				<textFieldExpression><![CDATA["ul. "+$F{Ulica miejsce dostawy}+" "+$F{Nr budynku miejsce dostawy}+($F{Nr lokalu miejsce dostawy}!=null?"m. "+$F{Nr lokalu miejsce dostawy}:" ")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="360" y="395" width="180" height="15" uuid="1796542f-e53d-4125-909e-5127ec89a928"/>
+				<textElement>
+					<font fontName="DejaVu Serif"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Kod pocztowy miejsce dostawy}+" "+$F{Miasto miejsce dostawy}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="360" y="410" width="190" height="15" uuid="dfdf760e-9ca5-42f3-820e-072be900e56b"/>
+				<textElement>
+					<font fontName="DejaVu Serif"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Tel. "+$F{Nr teleofnu miejsce dostawy}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="360" y="425" width="190" height="15" uuid="bccfd850-ea2f-496d-bdc6-c86b82aeba13"/>
+				<textElement>
+					<font fontName="DejaVu Serif"/>
+				</textElement>
+				<textFieldExpression><![CDATA["NIP\\Pesel: "+$F{NIP\\PESEL miejsce dostawy}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="64" y="130" width="376" height="16" uuid="6e4d57bb-d126-4124-a874-abd709d7a647"/>
+				<textElement>
+					<font fontName="DejaVu Serif"/>
+				</textElement>
+				<text><![CDATA[Faktura korygująca stanowi nierozłączną część faktury:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="210" y="146" width="170" height="18" uuid="dda7544a-29db-439e-9b16-afa7781e6a85"/>
+				<textElement>
+					<font fontName="DejaVu Serif"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Data wystawienia: "+DATEFORMAT($F{Data wystawienia faktury},"dd.MM.yyyy" )]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="380" y="146" width="150" height="18" uuid="48f97961-265b-44e0-99d7-3223b4473b7c"/>
+				<textElement>
+					<font fontName="DejaVu Serif"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Data dostawy: "+DATEFORMAT($F{Data dostawy},"dd.MM.yyyy" )]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="40" y="500" width="350" height="30" uuid="2a64a3f6-a9d7-4088-b456-94001ccd28bf"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="DejaVu Serif"/>
+				</textElement>
+				<text><![CDATA[Dokonano korekt w/w faktury w następujących pozycjach]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="141">
+			<componentElement>
+				<reportElement key="" isPrintRepeatedValues="false" mode="Opaque" x="0" y="30" width="554" height="110" uuid="1369d78e-6461-4736-b898-594d400483f3">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table_TD"/>
+					<property name="net.sf.jasperreports.export.headertoolbar.table.name" value=""/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="Przed korektą" uuid="a2b3d0ab-cc03-49f4-a6b6-52d208fd9cc0">
+						<datasetParameter name="Zamowienie">
+							<datasetParameterExpression><![CDATA[$P{NumerZamowienia}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="140" uuid="02d93192-e635-4e22-860e-9cc01202c239">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+						<jr:columnHeader style="Table_CH" height="40" rowSpan="1">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="140" height="40" backcolor="#D6D6D6" uuid="5064357f-233a-4bd7-8d8a-91a2d561a699"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<text><![CDATA[Nazwa artykułu]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="70">
+							<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.FreeLayout"/>
+							<textField>
+								<reportElement x="0" y="0" width="140" height="70" uuid="ad94e118-6842-4779-a341-b4a8ac1409aa"/>
+								<textElement textAlignment="Left" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+									<paragraph lineSpacing="Single" leftIndent="15"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{Nazwa artykulu}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="40" uuid="ed8d26f2-ff54-4369-949f-da1e68633268">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+						<jr:columnHeader style="Table_CH" height="40" rowSpan="1">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="40" height="40" backcolor="#D6D6D6" uuid="14d4a4eb-4296-4cb1-88f0-f58f7b341212"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<text><![CDATA[Kod produktu]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="70">
+							<textField>
+								<reportElement x="0" y="0" width="40" height="70" uuid="69f472db-2a96-44f0-be71-84610ecde197"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{KOD}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="38" uuid="43568827-75a7-4485-ac56-597f69209cc6">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column3"/>
+						<jr:columnHeader style="Table_CH" height="40" rowSpan="1">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="38" height="40" backcolor="#D6D6D6" uuid="fae78f8c-7be2-4ad9-8bb2-b1f22a49f4d8"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<text><![CDATA[Ilość]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="70">
+							<textField>
+								<reportElement x="0" y="0" width="38" height="70" uuid="2f93f10c-cdb2-4927-9209-71ac917ddc1e"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{ILOSC}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="40" uuid="3ef07e46-43bb-4cab-8d38-fa0ace697605">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column4"/>
+						<jr:columnHeader style="Table_CH" height="40" rowSpan="1">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="40" height="40" backcolor="#D6D6D6" uuid="bff6f52c-dfc9-4ddc-bba2-43cce29dceb0"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<text><![CDATA[JM]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="70">
+							<textField>
+								<reportElement x="0" y="0" width="40" height="70" uuid="9cb766af-98c9-4d4d-890c-e1dfea1d62b4"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{JEDNOSTKAMIARY}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="42" uuid="56e37ef6-81c9-48d0-a494-569010f8bf9c">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column5"/>
+						<jr:columnHeader style="Table_CH" height="40" rowSpan="1">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="42" height="40" backcolor="#D6D6D6" uuid="bcda01a8-d8cf-46f3-85f5-a067dc843c29"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<text><![CDATA[Cena netto]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="70">
+							<textField>
+								<reportElement x="0" y="0" width="42" height="70" uuid="621985b6-fff1-4608-ae93-70a4f7ab3dae"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{CENANETTO}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="60" uuid="8ff7d342-960d-4cac-bebf-d40ad940ac92">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column6"/>
+						<jr:columnHeader style="Table_CH" height="40" rowSpan="1">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="60" height="40" backcolor="#D6D6D6" uuid="b397e731-b10a-46f5-b843-da0980ccc47e"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<text><![CDATA[Wartość netto]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="70">
+							<textField>
+								<reportElement x="0" y="0" width="60" height="70" uuid="fff47186-2631-43b2-8ae8-faaa78f047bb"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{WARTOSCNETTO}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="68" uuid="ede967ca-146b-4f98-83b7-a962a0b1491a">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column7"/>
+						<jr:columnHeader style="Table_CH" height="40" rowSpan="1">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="68" height="40" backcolor="#D6D6D6" uuid="7cfc9ac1-e910-4999-954b-c0c34f9bc45b"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<text><![CDATA[VAT st.% kwota]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="70">
+							<textField>
+								<reportElement x="0" y="0" width="68" height="70" uuid="6dc52ad2-545c-4202-b116-c99c02465d62"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{STAWKAVAT}+" "+$F{KWOTAVAT}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="781cd932-338b-42b5-bba5-61a640ebd123">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column8"/>
+						<jr:columnHeader style="Table_CH" height="40" rowSpan="1">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="70" height="40" backcolor="#D6D6D6" uuid="d66a942b-33fa-4e43-997c-9c55a64b1b83"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<text><![CDATA[Wartość brutto]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="70">
+							<textField>
+								<reportElement x="0" y="0" width="70" height="70" uuid="5e04a746-d8b3-41d3-8d28-6efe4eaa07c6"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{WARTOSCBRUTTO}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="56" uuid="9b6bba5f-fa59-42c8-a1bb-32cc1cf3a7b8">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column9"/>
+						<jr:columnHeader style="Table_CH" height="40" rowSpan="1">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="56" height="40" backcolor="#D6D6D6" uuid="b9c671ea-970a-4a9a-b046-c560a92a0fe0"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<text><![CDATA[PKWIU]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="70">
+							<textField>
+								<reportElement x="0" y="0" width="56" height="70" uuid="451a5bfc-de42-4ee9-908b-a81e1efd3dec"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{PKWIU}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<staticText>
+				<reportElement x="0" y="0" width="180" height="30" uuid="2da5ebc2-7e16-4bf9-82b1-54230f1cb307"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="DejaVu Serif" size="12"/>
+				</textElement>
+				<text><![CDATA[Przed korektą]]></text>
+			</staticText>
+		</band>
+		<band height="121">
+			<componentElement>
+				<reportElement x="0" y="30" width="554" height="90" uuid="d7d8fbbd-051d-41fb-a24d-37fbeb06816d">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table 1_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table 1_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table 1_TD"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="Po korekcie" uuid="a3889b10-dbfa-4372-b110-f01322ea1de7">
+						<datasetParameter name="Zamowienie">
+							<datasetParameterExpression><![CDATA[$P{NumerZamowienia}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="dokument">
+							<datasetParameterExpression><![CDATA[$P{NumerDokumentu}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="140" uuid="feed58ff-91c5-4470-a586-ba64d4469a81">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+						<jr:columnHeader style="Table 1_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="140" height="30" backcolor="#D6D6D6" uuid="5fa5b073-06b4-403f-91c5-f51834714df6"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<text><![CDATA[Nazwa artykułu]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 1_TD" height="60">
+							<textField>
+								<reportElement x="0" y="0" width="140" height="60" uuid="27ee85dd-488b-4ae7-b06e-db1386f3b7e9"/>
+								<textElement textAlignment="Left" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+									<paragraph leftIndent="15"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{Nazwa artykulu}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="40" uuid="c8f676a7-4434-4e6f-969d-770b855029aa">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+						<jr:columnHeader style="Table 1_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="40" height="30" backcolor="#D6D6D6" uuid="625c9d0b-ceaa-4fa9-9e34-9195337144ba"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<text><![CDATA[Kod produktu]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 1_TD" height="60">
+							<textField>
+								<reportElement x="0" y="0" width="40" height="60" uuid="53482714-f5ba-492e-83f2-42664897a729"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{KOD}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="40" uuid="9b243ae2-75cd-446e-a8bf-ff5ee0c51c20">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column3"/>
+						<jr:columnHeader style="Table 1_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="40" height="30" backcolor="#D6D6D6" uuid="f8d5cb70-3afc-4c68-aefd-3ccc7d10bc6a"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<text><![CDATA[Ilość]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 1_TD" height="60">
+							<textField>
+								<reportElement x="0" y="0" width="40" height="60" uuid="cf6ed3dd-5765-43b8-a21e-e185cf130611"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{SUM(ILOSC)}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="40" uuid="df89abf0-b220-482a-9506-b0d8db24d925">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column4"/>
+						<jr:columnHeader style="Table 1_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="40" height="30" backcolor="#D6D6D6" uuid="cdc086b4-cfff-472b-a698-5fd2e528e815"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<text><![CDATA[JM]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 1_TD" height="60">
+							<textField>
+								<reportElement x="0" y="0" width="40" height="60" uuid="cea73892-f140-49e8-9250-e8ca74ec1a8a"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{JEDNOSTKAMIARY}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="40" uuid="00cd681d-02e7-4c2e-8175-1e4583daa724">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column5"/>
+						<jr:columnHeader style="Table 1_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="40" height="30" backcolor="#D6D6D6" uuid="159cb662-5205-4f6f-bc6b-94282971ac8b"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<text><![CDATA[Cena netto]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 1_TD" height="60">
+							<textField>
+								<reportElement x="0" y="0" width="40" height="60" uuid="6316745d-a640-4e9a-9885-acefb17f2cc5"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{CENANETTO}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="60" uuid="ab0a7f5c-aadb-4cd7-92f3-674ec866672d">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column6"/>
+						<jr:columnHeader style="Table 1_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="60" height="30" backcolor="#D6D6D6" uuid="3cad447b-a56f-4223-af8f-3d1f5e0ca787"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<text><![CDATA[Wartość netto]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 1_TD" height="60">
+							<textField>
+								<reportElement x="0" y="0" width="60" height="60" uuid="3e928702-1887-42ec-94af-e05b99002709"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{SUM(WARTOSCNETTO)}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="cfab0a3c-b46c-43ce-9460-7fd7a1a16a07">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column7"/>
+						<jr:columnHeader style="Table 1_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="70" height="30" backcolor="#D6D6D6" uuid="6d4c2d6a-59d3-47ea-9ffb-c1290204bee0"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<text><![CDATA[VAT st.% kwota]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 1_TD" height="60">
+							<textField>
+								<reportElement x="0" y="0" width="70" height="60" uuid="bef0ce9f-24c7-4950-91c1-4ef616be2197"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{SUM(STAWKAVAT)}+" "+$F{SUM(KWOTAVAT)}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="d2d83141-2abd-4f0d-8c98-d230f99b20c0">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column8"/>
+						<jr:columnHeader style="Table 1_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="70" height="30" backcolor="#D6D6D6" uuid="16b37990-0850-49e7-b76d-aa9798df9d29"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<text><![CDATA[Wartość brutto]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 1_TD" height="60">
+							<textField>
+								<reportElement x="0" y="0" width="70" height="60" uuid="a4e34b3e-6f63-4f15-84da-9f3203b1f486"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{SUM(WARTOSCBRUTTO)}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="54" uuid="9bc14260-5647-4bb8-91a0-e6a7d8c50263">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column9"/>
+						<jr:columnHeader style="Table 1_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="54" height="30" backcolor="#D6D6D6" uuid="fefac6cd-338e-4151-8071-9290d55cc399"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<text><![CDATA[PKWIU]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 1_TD" height="60">
+							<textField>
+								<reportElement x="0" y="0" width="54" height="60" uuid="bc153a9b-98b3-4caf-9313-9a1fe2e12726"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{PKWIU}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<staticText>
+				<reportElement x="0" y="0" width="180" height="30" uuid="30da2bbe-174e-48cf-8da4-eabc17408db4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="DejaVu Serif" size="12"/>
+				</textElement>
+				<text><![CDATA[Po korekcie]]></text>
+			</staticText>
+		</band>
+		<band height="91">
+			<componentElement>
+				<reportElement x="400" y="30" width="154" height="60" uuid="2f555c39-cb0b-457f-8336-e5d883b3938d">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table 4_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table 4_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table 4_TD"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="podsumowanie Wartosc korekty" uuid="dd853f82-3fa5-4b95-ab7e-0db850ef669c">
+						<datasetParameter name="Zamowienie">
+							<datasetParameterExpression><![CDATA[$P{NumerZamowienia}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="50" uuid="1b791625-299a-4ee6-8e07-572bc76e607a">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+						<jr:columnHeader style="Table 4_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="50" height="30" backcolor="#D6D6D6" uuid="07d84096-919d-4f8e-8ec5-c9492547f96e"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<text><![CDATA[Wartość netto]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 4_TD" height="31">
+							<textField>
+								<reportElement x="0" y="0" width="50" height="31" uuid="edb12171-fffd-45b4-a55e-13896c4f8465"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{SUM(WARTOSCNETTO)}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="50" uuid="a6441860-b5ef-4889-8491-cd9464949aea">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+						<jr:columnHeader style="Table 4_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="50" height="30" backcolor="#D6D6D6" uuid="45e0d3a5-ec3f-4f99-99f0-36f2bbf460b4"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<text><![CDATA[Kwota VAT]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 4_TD" height="31">
+							<textField>
+								<reportElement x="0" y="0" width="50" height="31" uuid="bebe9c10-412f-4c34-ae0b-c769e548d35e"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{SUM(KWOTAVAT)}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="54" uuid="68ab7cc5-091c-4ee5-8c6e-580165ec710a">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column3"/>
+						<jr:columnHeader style="Table 4_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="54" height="30" backcolor="#D6D6D6" uuid="b6c9aca7-05ff-4912-b54c-b5a126ad5559"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<text><![CDATA[Wartość brutto]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 4_TD" height="31">
+							<textField>
+								<reportElement x="0" y="0" width="54" height="31" uuid="ecd12b03-c2a0-4f4b-bd75-7231c8a6f1a1"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{SUM(WARTOSCBRUTTO)}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<componentElement>
+				<reportElement x="190" y="30" width="160" height="60" uuid="4cab8c3e-5cf9-485b-9a3c-328ea7104d72">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table 3_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table 3_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table 3_TD"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="Podsumowanie po korekcie" uuid="0e50814b-4ea4-4f41-b018-d9c77afd15f3">
+						<datasetParameter name="Zamowienie">
+							<datasetParameterExpression><![CDATA[$P{NumerZamowienia}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="50" uuid="f1f85efb-6e70-4edd-805a-22b42ed69f39">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+						<jr:columnHeader style="Table 3_CH" height="30">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="50" height="30" backcolor="#D6D6D6" uuid="eccb0ee0-be52-46c8-8577-9091d631fd10"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<text><![CDATA[Wartość netto]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 3_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="50" height="30" uuid="ec874c6e-1af2-4ee5-b042-05764631dc80"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{SUM(WARTOSCNETTO)}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="50" uuid="793392aa-17cd-4314-9574-2d1796d937d0">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+						<jr:columnHeader style="Table 3_CH" height="30">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="50" height="30" backcolor="#D6D6D6" uuid="5bbb103b-e743-4fda-8b2c-39d4bea8a16d"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<text><![CDATA[Kwota VAT]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 3_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="50" height="30" uuid="3daa2305-6650-4329-90c5-ebfd3946194a"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{SUM(KWOTAVAT)}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="60" uuid="65d72211-dd6a-438d-aa77-aa69799585ba">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column3"/>
+						<jr:columnHeader style="Table 3_CH" height="30">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="60" height="30" backcolor="#D6D6D6" uuid="4570aa7a-8814-4804-99c7-4fb8f2f78983"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<text><![CDATA[Wartość brutto]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 3_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="60" height="30" uuid="c3e44f69-a1dd-4016-9985-7905b92971b4"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{SUM(WARTOSCBRUTTO)}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<staticText>
+				<reportElement x="190" y="0" width="160" height="30" uuid="88f364df-f6bd-4066-96f4-3a73116068bc"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="DejaVu Serif" size="12"/>
+				</textElement>
+				<text><![CDATA[Po korekcie]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="0" width="150" height="30" uuid="6f73cb11-40ff-46ea-bb72-f2e7d2e83301"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="DejaVu Serif" size="12"/>
+				</textElement>
+				<text><![CDATA[Przed korektą]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement x="0" y="30" width="150" height="60" uuid="a3d39b3d-b7d8-48ee-872a-8ec5b717adf8">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table 2_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table 2_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table 2_TD"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="Podsumowanie przed korektą" uuid="cbb06e88-ffb2-4b0d-b85f-d63dd16d01a0">
+						<datasetParameter name="Zamowienie">
+							<datasetParameterExpression><![CDATA[$P{NumerZamowienia}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="50" uuid="d3d6fad9-a1fb-4209-8e89-8586bc6732ac">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+						<jr:columnHeader style="Table 2_CH" height="30">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="50" height="30" backcolor="#D6D6D6" uuid="2d170276-d309-439d-8de0-54128a9e3046"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<text><![CDATA[Wartość netto]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 2_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="50" height="30" uuid="5ad9e75d-5e09-42d3-8c32-5b1eed4e2450"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{SUM(WARTOSCNETTO)}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="50" uuid="404dcd34-49ea-470a-8c92-48f582620bda">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+						<jr:columnHeader style="Table 2_CH" height="30">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="50" height="30" backcolor="#D6D6D6" uuid="3b3d6671-759b-409a-9723-2477bf85fe53"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<text><![CDATA[Kwota VAT]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 2_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="50" height="30" uuid="1c454b3f-99d7-4535-8165-2db7ff936454"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{SUM(KWOTAVAT)}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="50" uuid="ef2d1633-83cd-4aee-b5ea-9f31256e034b">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column3"/>
+						<jr:columnHeader style="Table 2_CH" height="30">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="50" height="30" backcolor="#D6D6D6" uuid="bac01c09-5b19-4553-8ca9-15f82f87735d"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<text><![CDATA[Wartość brutto]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 2_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="50" height="30" uuid="0ad527f7-67ef-4827-ada9-00854b5fe518"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{SUM(WARTOSCBRUTTO)}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<staticText>
+				<reportElement x="400" y="0" width="154" height="30" uuid="96f3fa25-746e-4eea-8d29-ca70fa57866d"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="DejaVu Serif" size="12"/>
+				</textElement>
+				<text><![CDATA[Wartość korekty]]></text>
+			</staticText>
+		</band>
+		<band height="81">
+			<componentElement>
+				<reportElement key="" isPrintRepeatedValues="false" x="0" y="20" width="554" height="60" uuid="6275024a-bc4c-4412-b7ff-0d5dca1ef3f4">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table 5_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table 5_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table 5_TD"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="Towar zwrotny" uuid="77eaf507-3c6b-49cf-9ced-e2a07c9241e2">
+						<datasetParameter name="Zamowienie">
+							<datasetParameterExpression><![CDATA[$P{NumerZamowienia}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="Dokument">
+							<datasetParameterExpression><![CDATA[$P{NumerDokumentu}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="140" uuid="97ce2dc3-b5b2-4161-98b5-056251386df9">
+						<jr:columnHeader style="Table 5_CH" height="30">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="140" height="30" backcolor="#D6D6D6" uuid="aee59f28-a181-4ce3-877a-8ff61001b704"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<text><![CDATA[Nazwa artykułu]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 5_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="140" height="30" uuid="e2665774-6023-4662-b86b-14f2b89ba325"/>
+								<textElement textAlignment="Left" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+									<paragraph leftIndent="15"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{Nazwa artykulu}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="40" uuid="eca78948-1041-4386-88d2-93d003f3c3d1">
+						<jr:columnHeader style="Table 5_CH" height="30">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="40" height="30" backcolor="#D6D6D6" uuid="cf50a667-c319-4923-b1ef-2bfc8de1743a"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<text><![CDATA[Kod produktu]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 5_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="40" height="30" uuid="515b01d4-ecbd-43d1-86bd-ef5138942162"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{Kod produktu}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="50" uuid="43dc5d42-b47a-4070-bdd1-c957e42300a6">
+						<jr:columnHeader style="Table 5_CH" height="30">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="50" height="30" backcolor="#D6D6D6" uuid="4a04b210-a3f9-4d7c-96d7-c7e1ec0e6e18"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<text><![CDATA[Ilość]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 5_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="50" height="30" uuid="0591925a-a99b-4406-b4bf-48e6a9baafd2"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{Ilość}.intValue()*(-1)]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="1a937055-ea45-4525-b8b3-224997ceeac1">
+						<jr:columnHeader style="Table 5_CH" height="30">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="70" height="30" backcolor="#D6D6D6" uuid="4a274f46-789f-45fd-805a-65bb490c3958"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<text><![CDATA[JM]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 5_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="70" height="30" uuid="208612b9-267e-492c-8ddd-ecd114de83a6"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{JEDNOSTKAMIARY}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="60" uuid="ee3aab8d-2164-4431-9e3b-21e9ebabcd9a">
+						<jr:columnHeader style="Table 5_CH" height="30">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="60" height="30" backcolor="#D6D6D6" uuid="9e6f580d-f76d-4bea-8649-468d0a32ec63"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<text><![CDATA[Cena netto]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 5_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="60" height="30" uuid="2d72479d-8409-4ef4-969e-9ae51a37d1cf"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{Cena netto}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="03f9cce6-7f5a-435e-8f45-e8f162be3b6e">
+						<jr:columnHeader style="Table 5_CH" height="30">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="70" height="30" backcolor="#D6D6D6" uuid="fd448310-c591-4b4e-b1b9-13e88c8d7f81"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<text><![CDATA[Wartość netto]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 5_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="70" height="30" uuid="9b129ec8-89f9-4d61-b406-09c792451681"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{Wartosc Netto}.doubleValue()*(-1)]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="557bc37c-882a-495b-b044-90bc9c1faeed">
+						<jr:columnHeader style="Table 5_CH" height="30">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="70" height="30" backcolor="#D6D6D6" uuid="43407c7c-712a-4871-94e8-7747435de371"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<text><![CDATA[VAT st.% kwota]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 5_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="70" height="30" uuid="71864d1d-a4e0-40ca-9cd6-6b9bb395c41c"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{Stawka VAT}+" "+$F{Kwota VAT}.doubleValue()*(-1)]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="54" uuid="e3871b3c-859a-4178-86e2-f18ac97e68c0">
+						<jr:columnHeader style="Table 5_CH" height="30">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="54" height="30" backcolor="#D6D6D6" uuid="1f449802-5cfb-437d-b310-3be6cf061d79"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<text><![CDATA[Wartość brutto]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 5_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="54" height="30" uuid="69c4813d-7697-4a5a-824e-0b5c66f080bd"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="DejaVu Serif"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{Wartość brutto}.doubleValue()*(-1)]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<staticText>
+				<reportElement x="0" y="0" width="150" height="20" uuid="8aca4244-87cc-4c26-b5e1-d4f9f5b2c64c"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Zwrot towaru]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="155" splitType="Stretch">
+			<textField>
+				<reportElement x="110" y="10" width="444" height="25" uuid="86e68f3c-ff14-4be0-9b74-02533f2e9763"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="DejaVu Serif" size="12"/>
+					<paragraph rightIndent="20"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Kwota zmniejszenia wartości brutto: "+$F{Wartość korekty}.doubleValue()*(-1)+" zł"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="30" y="49" width="210" height="30" uuid="765010e7-ba93-4c9a-9638-5b8c3c6e01c8"/>
+				<textElement textAlignment="Center">
+					<font fontName="DejaVu Serif"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Nazwisko Pracownika}+" "+$F{Imię Pracownika}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="30" y="90" width="210" height="16" uuid="e15be6c7-f9e2-4f2f-85a3-d462e2fa7fdd"/>
+				<textElement>
+					<font fontName="DejaVu Serif"/>
+				</textElement>
+				<text><![CDATA[...........................................................................]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="50" y="106" width="170" height="34" uuid="b8789879-5fa0-4a79-97ce-e19fd9b937d5"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="DejaVu Serif"/>
+				</textElement>
+				<text><![CDATA[Podpis osoby uprawnionej do wystawienia faktury]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="340" y="110" width="170" height="34" uuid="418bf442-cd47-4259-96a7-d5e93e4ef1e0"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="DejaVu Serif"/>
+				</textElement>
+				<text><![CDATA[Podpis osoby uprawnionej do otrzymania towaru i faktury]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="320" y="94" width="210" height="16" uuid="54aee232-ea5c-426b-a641-e83077176aa1"/>
+				<textElement>
+					<font fontName="DejaVu Serif"/>
+				</textElement>
+				<text><![CDATA[...........................................................................]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+</jasperReport>
